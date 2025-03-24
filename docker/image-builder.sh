@@ -16,7 +16,7 @@ usage() {
 
 }
 
-name=cuttlefish-orchestration
+name=cuttlefish-orchestration:no-update
 build_option=prod
 while getopts ":hm:t:" opt; do
   case "${opt}" in
